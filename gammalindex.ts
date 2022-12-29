@@ -5,9 +5,15 @@ import { graphqlHTTP } from 'express-graphql';
 // Data hårdkodad in vår kod istället för att hämta från en databas
 //............//
 export const users = [
-    { id: 1, name: 'Kurt', email: "Kurt@gmail.com"},
-    { id: 2, name: 'Sofia', email: "Sofia@gmail.com"},
-    { id: 3, name: 'Bruce', email: "Bruce@gmail.com"}
+    { id: 1, name: 'Olivia', email: "AnnaT@massivedynamics.com"},
+    { id: 2, name: 'Peter', email: "JoshuaJ@massivedynamics.com"},
+    { id: 3, name: 'Astrid', email: "JasikaN@massivedynamics.com"},
+    { id: 4, name: 'Walter', email: "JohnN@massivedynamics.com"},
+    { id: 5, name: 'Philip', email: "LanceR@massivedynamics.com"},
+    { id: 6, name: 'Nina', email: "BlairB@massivedynamics.com"},
+    { id: 7, name: 'Charlie', email: "KirkA@massivedynamics.com"},
+    { id: 8, name: 'Lincoln', email: "SethG@massivedynamics.com"},
+    { id: 9, name: 'William', email: "LeonardN@massivedynamics.com"}
 ];
 
 // Schema
